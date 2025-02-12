@@ -45,7 +45,6 @@ The project is organized into the following modules:
 ### Prerequisites
 - **Terraform** installed on your local machine.
 - **AWS CLI** configured with valid credentials.
-- An existing **SSH key pair** (optional, as one can be generated).
 
 ### Steps
 
@@ -56,7 +55,7 @@ The project is organized into the following modules:
 
 2. **Preview the Deployment Plan**
    ```bash
-   terraform init
+   terraform apply -auto-approve
    ```
 
 4. **Destroy the Infrastructure (If Needed)**
